@@ -1,0 +1,2 @@
+- Randy Heskyel Gumolung || 2231149 || 2SIMD
+- Maaf pak, masih ada beberapa yang belum seperti form nya.
