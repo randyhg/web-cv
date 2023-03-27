@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #FFFFFE;
   font-size: 14px;
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
@@ -78,7 +78,7 @@ ul li, ol li {
   letter-spacing: 0.1rem;
 }
 
-.section-titile-bg {
+.section-title-bg {
   display: inline;
   font-size: 115px;
   font-weight: 700;
@@ -99,7 +99,7 @@ ul li, ol li {
 }
 
 .section-title {
-  color: #252525;
+  color: #666666;
   font-size: 38px;
   text-align: center;
   letter-spacing: 1px;
@@ -150,9 +150,18 @@ ul li, ol li {
   -webkit-transition: all .2s ease-in-out;
 }
 
-.btn-danger:hover {
-  background-color: #f55262;
-  border-color: #f55262;
+.wa {
+  background-color: #25D366;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.wa:hover {
+  color: #fff;
+  background-color: #46ee80;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -781,138 +790,9 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #ddd;
 }
 
-/* ==========================================================================
-  Portfolio Section
-   ========================================================================== */
-#portfolios {
-  background: #f2f2f2;
-}
-
-#portfolios .mix {
-  padding: 10px;
-}
-
-#portfolios .portfolio-item .shot-item {
-  margin: 0px;
-}
-
-#portfolio .mix {
-  display: none;
-}
-
-.controls {
-  text-align: center;
-  padding: 0px 0px 20px;
-}
-
-.controls .active {
-  color: #00b4d9 !important;
-  border-color: #00b4d9;
-  background: transparent;
-}
-
-.controls .btn {
-  text-transform: uppercase;
-  margin: 2px;
-  color: #fff;
-}
-
-.controls:hover {
-  cursor: pointer;
-}
-
-.portfolio-img {
-  overflow: hidden;
-  display: block;
-  position: relative;
-}
-
-.portfolio-img img {
-  width: 100%;
-}
-
-.shot-item {
-  margin-right: 15px;
-  border-radius: 4px;
-  background: #fff;
-  position: relative;
-}
-
-.shot-item img {
-  width: 100%;
-}
-
-.shot-item .overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(0, 180, 217, 0.6);
-  opacity: 0;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-
-.shot-item:hover .overlay {
-  opacity: 1;
-}
-
-.overlay {
-  opacity: 0;
-}
-
-.overlay .icons i {
-  height: 42px;
-  width: 42px;
-  line-height: 42px;
-  color: #00b4d9;
-  left: 50%;
-  margin-left: -24px;
-  margin-top: -24px;
-  top: 50%;
-  position: absolute;
-  z-index: 2;
-  cursor: pointer;
-  text-align: center;
-  font-size: 20px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  background: #fff;
-  border-radius: 4px;
-}
-
-.overlay .preview {
-  position: absolute;
-  left: 45%;
-  top: 50%;
-  color: #fff;
-}
-
-.overlay .link {
-  position: absolute;
-  left: 60%;
-  margin-left: 10px;
-  top: 50%;
-  color: #fff;
-}
-
-.shot-item:hover .overlay {
-  opacity: 1;
-}
-
-a:not([href]):not([tabindex]) {
-  color: #fff;
-}
-
-a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
-  color: #fff;
-}
-
 /* services Item */
 .services {
-  background: #F0F0F0;
+  background: #f5f5f5;
 }
 
 .services-item {

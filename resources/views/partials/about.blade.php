@@ -23,7 +23,7 @@
                   </ul>
                 </div>
                 <a href="/download" class="btn btn-common"><i class="fa fa-download"></i>Download Resume</a>
-                <a href="https://api.whatsapp.com/send?phone=6285836260820&text=Hi%20Randy" target="blank" class="btn btn-danger"><i class="fa fa-whatsapp" aria-hidden="true"></i> Contact Me</a>
+                <a href="https://api.whatsapp.com/send?phone=6285836260820&text=Hi%20Randy,%20" target="blank" class="btn wa"><i class="fa fa-whatsapp" aria-hidden="true"></i> Contact Me</a>
               </div>
             </div>   
           </div>

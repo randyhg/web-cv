@@ -19,14 +19,12 @@
                     <i class="fa fa-envelope"></i>
                     </div>
                     <p><a href="https://mail.google.com/mail/u/0/?fs=1&to=randyheskyel@gmail.com&su=Say%20Hi!&body=Hi%20Randy!&tf=cm" target="blank">randyheskyel@gmail.com</a></p>
-                    <p><a href="https://mail.google.com/mail/u/0/?fs=1&to=2231149.randy@uib.edu&su=Say%20Hi!&body=Hi%20Randy!&tf=cm" target="blank">2231149.randy@uib.edu</a></p>
                 </div>
                 <div class="single-contact">
                     <div class="contact-icon">
                     <i class="fa fa-whatsapp"></i>
                     </div>
                     <p>+ (62) 858 3626 0820</p>
-                    <p>+ (62) 813 7427 3809</p>
                 </div>
                 </div>
             </div>

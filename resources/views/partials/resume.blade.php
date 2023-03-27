@@ -6,7 +6,7 @@
             <ul class="timeline">
                 <li>
                 <i class="icon-graduation"></i>
-                <h2 class="timelin-title">Education</h2>
+                <h2 class="timelin-title">Educations</h2>
                 </li>
                 <li>
                 <div class="content-text">
@@ -28,7 +28,7 @@
             <ul class="timeline">
                 <li>
                 <i class="icon-briefcase"></i>
-                <h2 class="timelin-title">Experience</h2>
+                <h2 class="timelin-title">Experiences</h2>
                 </li>
                 <li>
                 <div class="content-text">
