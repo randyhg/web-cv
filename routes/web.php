@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use Psy\VersionUpdater\Downloader;
+use App\Http\Controllers\FormController;
+
 // use App\Models\Form;
 
 /*
@@ -29,11 +31,4 @@ Route::get('/download', function() {
     return Response::download($file, "CV.pdf", $headers);
 });
 
-Route::post('/contact', function(){
-    $form = new Form();
-    $form->name = request('name');
-    $form->email = request('email');
-    $form->msg_subject = request('msg_subject');
-    $form->message = request('message');
-    $form->save();
-});
+Route::post('insert-data', [App\Http\Controllers\FormController::class, 'insert']);
