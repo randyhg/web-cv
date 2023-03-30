@@ -1,5 +1,3 @@
-{{-- Untuk form nya saya masih coba buat pak, agar bisa berjalan --}}
-
 <div class="contact-block">
     <form action="{{ url ('insert-data') }}" method="post" autocomplete="off" id="contactForm">
     @csrf
