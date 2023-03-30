@@ -1,7 +1,6 @@
 {{-- Untuk form nya saya masih coba buat pak, agar bisa berjalan --}}
 
 <div class="contact-block">
-    <h2>Contact Form</h2>*masih dalam pengerjaan untuk form nya pak, hehe.
     <form action="{{ url ('insert-data') }}" method="post" autocomplete="off" id="contactForm">
     @csrf
     <div class="row">
