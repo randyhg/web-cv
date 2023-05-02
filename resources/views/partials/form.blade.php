@@ -1,3 +1,4 @@
+<h2>Contact Me</h2>
 <div class="contact-block">
     <form action="{{ url ('insert-data') }}" method="post" autocomplete="off" id="contactForm">
     @csrf
