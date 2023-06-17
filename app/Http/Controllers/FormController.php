@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class FormController extends Controller
 {
@@ -14,6 +15,7 @@ class FormController extends Controller
         $user->subject = $request->input('subject');
         $user->message = $request->input('message');
         $user->save();
-        return redirect('/')->with('status', "Inserted Successfully");
+        Alert::success('Sent Successfully', 'Thanks for your Feedback!');
+        return redirect('/');
     }
 }

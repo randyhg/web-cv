@@ -8,6 +8,8 @@
     <header id="header-wrap">
       @include('partials.navbar')   <!-- Navbar -->
     </header>
+
+    @include('sweetalert::alert')   <!-- SweetAlert -->
     
     @include('partials.home')   <!-- Home -->
 
