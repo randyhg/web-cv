@@ -18,7 +18,7 @@
                     <li><span class="pro-title"> Country </span> <span class="pro-detail">Indonesia</span></li>
                     <li><span class="pro-title"> Location </span> <span class="pro-detail">Kepulauan Riau, Batam</span></li>
                     <li><span class="pro-title"> E-mail </span> <span class="pro-detail">randyheskyel@gmail.com</span></li>
-                    <li><span class="pro-title"> Phone </span> <span class="pro-detail">+ (62) 858 3626 0820</span></li>
+                    <li><span class="pro-title"> Phone </span> <span class="pro-detail">+ (62) *** **** 0820</span></li>
                     <li><span class="pro-title"> Status </span> <span class="pro-detail">Undergraduate Student</span></li>
                   </ul>
                 </div>

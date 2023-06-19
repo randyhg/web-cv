@@ -9,7 +9,7 @@
                 <i class="fa fa-database" aria-hidden="true"></i>
             </div>
             <div class="services-content">
-                <h3><a href="#">MySQL</a></h3>
+                <h3><a href="">MySQL</a></h3>
             </div>
             </div>
         </div>

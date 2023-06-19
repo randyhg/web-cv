@@ -24,7 +24,7 @@
                     <div class="contact-icon">
                     <i class="fa fa-whatsapp"></i>
                     </div>
-                    <p>+ (62) 858 3626 0820</p>
+                    <p>+ (62) *** **** 0820</p>
                 </div>
                 </div>
             </div>
